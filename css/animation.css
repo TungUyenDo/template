@@ -1,1 +1,1082 @@
-.flipinx,.flipoutx{backface-visibility:visible!important}.fadein,.fadeout,.flipinx,.flipoutx{animation-duration:1.5s;animation-fill-mode:forwards}.fadein,.fadeindown,.fadeout,.flipinx,.flipoutx{animation-fill-mode:forwards}@keyframes Start{from{visibility:hidden}to{visibility:visible}}@keyframes Preloader{100%{transform:rotate(360deg)}}@keyframes Play{from{background-position:0}to{background-position:-360px}}@keyframes Ani{0%{box-shadow:0 0 0 rgba(220,220,220,0);border:1px solid rgba(220,220,220,0);transform:scale(0)}70%{box-shadow:0 0 50px rgba(220,220,220,1);border:1px solid rgba(220,220,220,1);transform:scale(1)}100%{box-shadow:0 0 60px rgba(220,220,220,0);border:0 solid rgba(220,220,220,0);transform:scale(2)}}@keyframes Rotate{from{transform:rotate(0) translateZ(0)}to{transform:rotate(360deg) translateZ(0)}}@keyframes empty{0%{opacity:1}}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100px,0)}100%{opacity:1;transform:translate3d(0,0,0)}}@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100px,0)}100%{opacity:1;transform:translate3d(0,0,0)}}@keyframes goDown{0%{opacity:0;transform:translate3d(-50%,-100px,0)}100%{opacity:1;transform:translate3d(-50%,0,0)}}@keyframes flipInX{0%{transform:perspective(400px) rotateX(90deg) scale(.5);opacity:0}100%{transform:perspective(400px) rotateX(0) scale(1);opacity:1}}@keyframes flipOutX{0%{transform:perspective(400px) rotateX(0) scale(1);opacity:1}100%{transform:perspective(400px) rotateX(90deg) scale(.5);opacity:0}}@keyframes scaleSmall{0%{opacity:0;transform:scale(.6)}100%{opacity:1;transform:scale(1)}}@keyframes scaleLarge{0%{opacity:0;transform:scale(1.2);transform-origin:center center}100%{opacity:1;transform:scale(1);transform-origin:center center}}@keyframes goHeight{from{transform:scale3d(1,0,1);transform-origin:center bottom}to{transform:scale3d(1,1,1);transform-origin:center bottom}}@keyframes aniHeight{from{transform:scale3d(1,0,1);opacity:0;transform-origin:center bottom}to{transform:scale3d(1,1,1);opacity:1;transform-origin:center bottom}}@keyframes goWidth{from{transform:scale3d(0,1,1)}to{transform:scale3d(1,1,1)}}@keyframes aniWidth{from{transform:scale3d(1,1,1)}to{transform:scale3d(0,1,1)}}@keyframes moveRight{100%{transform:translateX(100%)}}@keyframes toRight{0%{opacity:0;right:-100px}100%{opacity:1;right:0}}@keyframes goRight{0%{opacity:0;transform:translate3d(-100%,0,0)}100%{opacity:1;transform:none}}@keyframes moveLeft{100%{transform:translateX(-100%)}}@keyframes toLeft{100%{transform:translate3d(-300px,0,0)}}@keyframes goLeft{0%{opacity:0;transform:translate3d(100%,0,0)}100%{opacity:1;transform:none}}@keyframes aniLeft{0%{opacity:0;transform:translate3d(100%,-50%,0)}100%{opacity:1;transform:translate3d(0,-50%,0)}}@keyframes bounceInDown{60%,75%,90%,from,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,-3000px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}to{transform:none;opacity:1}}@keyframes BorderBox{0%,100%{background-position:0 0}50%{background-position:100% 100%}}@keyframes Border{0%,60%{border-top-color:#ffd47d}20%{border-top-color:#285a71}}@keyframes Border1{0%,60%{border-color:#ffd47d}20%{border-color:#285a71}}@keyframes StrokeLine{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-200}}@keyframes StrokeLine1{0%{stroke-dashoffset:0}100%{stroke-dashoffset:300}}@keyframes DrawStroke{0%{stroke-dashoffset:1500}100%{stroke-dashoffset:0}}@keyframes DrawStroke1{0%{stroke-dashoffset:3000}100%{stroke-dashoffset:0}}@keyframes StrokeOffset{50%{stroke-dashoffset:35%;stroke-dasharray:100% 35%}}@keyframes Move-Arrow{25%{opacity:1}33.3%{opacity:1;transform:translateY(10px)}66.6%{opacity:1;transform:translateY(20px)}100%{opacity:0;transform:translateY(30px) scale(.5)}}@keyframes InRight{0%{opacity:0;right:-100px}100%{opacity:1;right:20px}}@keyframes trackBallSlide{0%,100%,30%,60%{opacity:1;transform:translateY(-12px)}15%,50%{opacity:0;transform:translateY(8px)}}.fadein{animation-name:fadeIn}.fadeout{animation-name:fadeOut}.flipoutx{animation-name:flipOutX}.flipinx{animation-name:flipInX}.fadeindown,.fadeinup{animation-duration:1s}.fadeindown{animation-name:fadeInDown}.fadeinup{animation-name:fadeInUp;animation-fill-mode:forwards}.goleft,.goright{animation-duration:.8s;animation-fill-mode:forwards}.goleft{animation-name:goLeft}.goright{animation-name:goRight}.scalelarge{animation:scaleLarge;animation-duration:1s;animation-fill-mode:forwards}.hight-out{animation:aniHeight;animation-duration:1s;animation-fill-mode:forwards}.hight-in{animation:goiHeight;animation-duration:1s;animation-fill-mode:forwards;z-index:10}.slide-fade-out{animation:fadeOut;animation-duration:1s;animation-fill-mode:forwards}.slide-fade-in{animation:fadeIn;animation-duration:1s;animation-fill-mode:forwards;z-index:10}.contact-form,.container,.footer,.go-top,.header,.register-form{animation:Start 1s steps(1,end) 0s 1 normal both}.register-form form{transform:scale3d(0,1,1);transition:all 1s cubic-bezier(.23,1,.38,1)}.register-form.show form{transform:scale3d(1,1,1);transition-delay:.9s}.bg-wave{opacity:0}.bg-wave.show-text{animation:fadeInUp;animation-duration:1s;animation-fill-mode:forwards}@media screen and (min-width:1100px){.box-nav,.close-video,.copyright,.fix-footer,.footer-wave,.grid-item-bg canvas,.grid-item-bg::after,.hotline,.logo,.sub-news{opacity:0}.hotline{pointer-events:none}.box-nav.show,.close-video.show{animation:toRight;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.show-text .grid-item-bg::after{animation:fadeIn;animation-duration:2s;animation-delay:1s;animation-fill-mode:forwards}.grid-item-bg canvas.show{animation:fadeIn;animation-duration:1s;animation-fill-mode:forwards}.copyright.show,.footer.align .copyright,.footer.center .copyright{animation:fadeInUp;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.fix-footer.show{animation:fadeInUp;animation-duration:.6s;animation-delay:.3s;animation-fill-mode:forwards}.bg-wave.show-text{animation:fadeInUp;animation-duration:1s;animation-delay:.6s;animation-fill-mode:forwards}.show-text .footer-wave{animation:fadeInUp;animation-duration:1s;animation-delay:.6s;animation-fill-mode:forwards}.show .hotline{pointer-events:auto;animation:goLeft;animation-duration:1s;animation-delay:0s;animation-fill-mode:forwards}.show .logo{animation:goRight;animation-duration:1s;animation-fill-mode:forwards}.group-central .slide-buttons,.group-central .slide-pagination{opacity:0;transition:opacity .3s ease-in-out}.show-text .slide-buttons,.show-text .slide-pagination{opacity:1}.slide-pics .txt-banner{opacity:0;right:0;transition:all 2s cubic-bezier(.23,1,.38,1)}.slide-pics .active .txt-banner{opacity:1;right:10vw;animation-delay:1s}.anisvg svg,.apartment-pic,.box-image,.box-pdf a,.box-progress,.box-txt i,.box-txt p,.content-main::after,.description,.go-back,.img-cover,.item-news-home,.keyplan,.logo-center,.note-facilities,.pic-library a,.pic-logo,.share,.slide-library,.text-intro h3,.text-intro p,.title-box,.title-main h2 span,.title-pic h3::after,.typical svg,.view-more{opacity:0}.line,.title-main h2::after{transform:scale3d(0,1,1);transform-origin:center center}.show-text .line,.show-text .title-main h2::after{animation:goWidth;animation-duration:1s;animation-delay:1.5s;animation-fill-mode:forwards}.show-text .title-main h2 span:nth-child(odd){animation:fadeIn;animation-duration:2s;animation-delay:0s;animation-fill-mode:forwards}.show-text .title-main h2 span:nth-child(even){animation:fadeIn;animation-duration:2s;animation-delay:.6s;animation-fill-mode:forwards}.content-main::before{transform:scale3d(1,0,1);transform-origin:top center}.copyright::before{transform:scale3d(1,0,1);transform-origin:bottom center}.show-text .box-txt p{animation:fadeInUp;animation-duration:1s;animation-delay:.6s;animation-fill-mode:forwards}.show-text .view-more{animation:fadeInUp;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.show-text .box-image{animation:fadeInUp;animation-duration:1.5s;animation-delay:0s;animation-fill-mode:forwards}.show-text .img-cover{animation:fadeIn;animation-duration:1.5s;animation-delay:.8s;animation-fill-mode:forwards}.show-text .box-txt i{animation:fadeInUp;animation-duration:1s;animation-delay:1.5s;animation-fill-mode:forwards}.show-text .content-main::before{animation:goHeight;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.copyright.show::before{animation:goHeight;animation-duration:1s;animation-delay:2s;animation-fill-mode:forwards}.show-text .item-news-home{animation:fadeInUp;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.show-text .item-news-home:nth-child(1){animation-delay:.3s}.show-text .item-news-home:nth-child(2){animation-delay:.6s}.show-text .item-news-home:nth-child(3){animation-delay:.8s}.show-text .item-faci-home{animation:fadeInUp;animation-duration:1s;animation-fill-mode:forwards}.show-text .item-faci-home:nth-child(1){animation-delay:.3s}.show-text .item-faci-home:nth-child(2){animation-delay:.6s}.show-text .item-faci-home:nth-child(3){animation-delay:.8s}.show-text .item-faci-home:nth-child(4){animation-delay:1s}.show-text .logo-center{animation:goDown;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.show-text .pic-logo{animation:fadeInUp;animation-duration:1s;animation-fill-mode:forwards}.show-text .pic-logo:nth-child(1){animation-delay:.8s}.show-text .pic-logo:nth-child(2){animation-delay:1s}.show-text .pic-logo:nth-child(3){animation-delay:1.2s}.show-text .text-intro p{animation:fadeInUp;animation-duration:1s;animation-fill-mode:forwards}.show-text .text-intro h3{animation:fadeInUp;animation-duration:1s;animation-delay:.3s;animation-fill-mode:forwards}.show-text .anisvg svg{animation:fadeInUp;animation-duration:1s;animation-delay:.6s;animation-fill-mode:forwards}.show-text .content-main::after{animation:goLeft;animation-duration:1s;animation-delay:0s;animation-fill-mode:forwards}.group-central[data-name=project-scale].show-text .box-cover{animation:toLeft;animation-duration:2s;animation-delay:.9s;animation-fill-mode:forwards}.text-intro p:nth-child(1){animation-delay:.5s}.text-intro p:nth-child(2){animation-delay:.6s}.text-intro p:nth-child(3){animation-delay:.7s}.text-intro p:nth-child(4){animation-delay:.8s}.text-intro p:nth-child(5){animation-delay:.9s}.text-intro p:nth-child(6){animation-delay:1s}.text-intro p:nth-child(7){animation-delay:1.2s}.text-intro p:nth-child(8){animation-delay:1.3s}.text-intro p:nth-child(9){animation-delay:1.4s}.text-intro p:nth-child(10){animation-delay:1.5s}.text-intro p:nth-child(11){animation-delay:1.6s}.text-intro p:nth-child(12){animation-delay:1.7s}.text-intro p:nth-child(13){animation-delay:1.8s}.text-intro p:nth-child(14){animation-delay:1.9s}.text-intro p:nth-child(15){animation-delay:2s}.text-intro p:nth-child(16){animation-delay:2.1s}.text-intro p:nth-child(17){animation-delay:2.2s}.text-intro p:nth-child(18){animation-delay:2.3s}.text-intro p:nth-child(19){animation-delay:2.4s}.text-intro p:nth-child(20){animation-delay:2.5s}.buttons,.compass,.pointer-map{opacity:0}.show-text .buttons{animation:goLeft;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.show-text .compass{animation:goLeft;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.pointer-map.show,.show-text .pointer-map{animation:bounceInDown;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}#library-page .title-main h2::after{transform:scale3d(1,0,1);transform-origin:center center}#library-page .show-text .title-main h2::after{animation:goHeight;animation-duration:1s;animation-delay:1.5s;animation-fill-mode:forwards}.hover .title-pic h3::after{animation:fadeInUp;animation-duration:.6s;animation-fill-mode:forwards}.hover .box-pdf a,.hover .pic-library a{animation:fadeInUp;animation-duration:.6s;animation-delay:.3s;animation-fill-mode:forwards}.show-text .slide-library{animation:fadeInUp;animation-duration:.6s;animation-fill-mode:forwards}.dot-num{transform:scale(0)}.close-pics{animation:toRight;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}#facilities-page .show-text .title-main h2::after{animation:goHeight;animation-duration:1s;animation-delay:1.5s;animation-fill-mode:forwards}.show-text .note-facilities{animation-name:fadeInUp;animation-duration:1s;animation-delay:.8s;animation-fill-mode:forwards}.show-text .dot-num.show span.circle{animation:Ani 2s infinite}.show-text .dot-num.show{transform:scale(1)}#apartment-page .show-text .title-main h2::after{animation:goHeight;animation-duration:1s;animation-delay:1.5s;animation-fill-mode:forwards}.show-text .typical svg{animation-name:scaleLarge;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.bg-circle{stroke:#a07759;stroke-miterlimit:0;stroke-width:3;stroke-dasharray:8;stroke-dashoffset:0}.show-text .bg-circle{animation:StrokeLine1 20s infinite linear}.show-house .title-box{animation-name:aniLeft;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.show-house .apartment-pic{animation-name:scaleLarge;animation-duration:1s;animation-delay:.5s;animation-fill-mode:forwards}.show-house .description,.show-house .keyplan,.show-house .share{animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.show-house .description{animation-name:fadeInUp}.go-back.show{pointer-events:auto;animation-name:InRight;animation-duration:1s;animation-fill-mode:forwards}.show-house .keyplan,.show-house .share{animation-name:goRight}.box-progress.show{animation:fadeInUp;animation-duration:.6s;animation-fill-mode:forwards}#news-page .grid-item-bg canvas{opacity:1}.link-page{opacity:0}.link-page.show{animation:fadeInUp;animation-duration:1s;animation-delay:1s;animation-fill-mode:forwards}.close-news{opacity:0;pointer-events:none}.colum-box-news.show .close-news{animation:toRight;animation-duration:1s;animation-delay:0s;animation-fill-mode:forwards;pointer-events:auto}.news-list.hide{animation:fadeOut;animation-duration:1s;animation-delay:0s;animation-fill-mode:forwards}#contact-page .show-text .anisvg svg{animation:goLeft;animation-duration:2s;animation-delay:1s;animation-fill-mode:forwards}}@media screen and (max-width:1100px){.go-back.show,.house-detail.show-house{animation-duration:1s;animation-fill-mode:forwards}.go-back,.house-detail{opacity:0}.house-detail.show-house{animation-name:fadeInUp}.go-back.show{pointer-events:auto;animation-name:goRight}}
+.flipinx, .flipoutx {
+    backface-visibility: visible !important
+}
+
+.fadein, .fadeout, .flipinx, .flipoutx {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards
+}
+
+.fadein, .fadeindown, .fadeout, .flipinx, .flipoutx {
+    animation-fill-mode: forwards
+}
+
+@keyframes Start {
+    from {
+        visibility: hidden
+    }
+    to {
+        visibility: visible
+    }
+}
+
+@keyframes Preloader {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes Play {
+    from {
+        background-position: 0
+    }
+    to {
+        background-position: -360px
+    }
+}
+
+@keyframes Ani {
+    0% {
+        box-shadow: 0 0 0 rgba(220, 220, 220, 0);
+        border: 1px solid rgba(220, 220, 220, 0);
+        transform: scale(0)
+    }
+    70% {
+        box-shadow: 0 0 50px rgba(220, 220, 220, 1);
+        border: 1px solid rgba(220, 220, 220, 1);
+        transform: scale(1)
+    }
+    100% {
+        box-shadow: 0 0 60px rgba(220, 220, 220, 0);
+        border: 0 solid rgba(220, 220, 220, 0);
+        transform: scale(2)
+    }
+}
+
+@keyframes Rotate {
+    from {
+        transform: rotate(0) translateZ(0)
+    }
+    to {
+        transform: rotate(360deg) translateZ(0)
+    }
+}
+
+@keyframes empty {
+    0% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100px, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100px, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes goDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(-50%, -100px, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+@keyframes flipInX {
+    0% {
+        transform: perspective(400px) rotateX(90deg) scale(.5);
+        opacity: 0
+    }
+    100% {
+        transform: perspective(400px) rotateX(0) scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes flipOutX {
+    0% {
+        transform: perspective(400px) rotateX(0) scale(1);
+        opacity: 1
+    }
+    100% {
+        transform: perspective(400px) rotateX(90deg) scale(.5);
+        opacity: 0
+    }
+}
+
+@keyframes scaleSmall {
+    0% {
+        opacity: 0;
+        transform: scale(.6)
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@keyframes scaleLarge {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+        transform-origin: center center
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transform-origin: center center
+    }
+}
+
+@keyframes goHeight {
+    from {
+        transform: scale3d(1, 0, 1);
+        transform-origin: center bottom
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+        transform-origin: center bottom
+    }
+}
+
+@keyframes aniHeight {
+    from {
+        transform: scale3d(1, 0, 1);
+        opacity: 0;
+        transform-origin: center bottom
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+        opacity: 1;
+        transform-origin: center bottom
+    }
+}
+
+@keyframes goWidth {
+    from {
+        transform: scale3d(0, 1, 1)
+    }
+    to {
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes aniWidth {
+    from {
+        transform: scale3d(1, 1, 1)
+    }
+    to {
+        transform: scale3d(0, 1, 1)
+    }
+}
+
+@keyframes moveRight {
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes toRight {
+    0% {
+        opacity: 0;
+        right: -100px
+    }
+    100% {
+        opacity: 1;
+        right: 0
+    }
+}
+
+@keyframes goRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: none
+    }
+}
+
+@keyframes moveLeft {
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes toLeft {
+    100% {
+        transform: translate3d(-300px, 0, 0)
+    }
+}
+
+@keyframes goLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: none
+    }
+}
+
+@keyframes aniLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, -50%, 0)
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, -50%, 0)
+    }
+}
+
+@keyframes bounceInDown {
+    60%, 75%, 90%, from, to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -3000px, 0)
+    }
+    60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0)
+    }
+    75% {
+        transform: translate3d(0, -10px, 0)
+    }
+    90% {
+        transform: translate3d(0, 5px, 0)
+    }
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes BorderBox {
+    0%, 100% {
+        background-position: 0 0
+    }
+    50% {
+        background-position: 100% 100%
+    }
+}
+
+@keyframes Border {
+    0%, 60% {
+        border-top-color: #ffd47d
+    }
+    20% {
+        border-top-color: #285a71
+    }
+}
+
+@keyframes Border1 {
+    0%, 60% {
+        border-color: #ffd47d
+    }
+    20% {
+        border-color: #285a71
+    }
+}
+
+@keyframes StrokeLine {
+    0% {
+        stroke-dashoffset: 0
+    }
+    100% {
+        stroke-dashoffset: -200
+    }
+}
+
+@keyframes StrokeLine1 {
+    0% {
+        stroke-dashoffset: 0
+    }
+    100% {
+        stroke-dashoffset: 300
+    }
+}
+
+@keyframes DrawStroke {
+    0% {
+        stroke-dashoffset: 1500
+    }
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes DrawStroke1 {
+    0% {
+        stroke-dashoffset: 3000
+    }
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes StrokeOffset {
+    50% {
+        stroke-dashoffset: 35%;
+        stroke-dasharray: 100% 35%
+    }
+}
+
+@keyframes Move-Arrow {
+    25% {
+        opacity: 1
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY(10px)
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY(20px)
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px) scale(.5)
+    }
+}
+
+@keyframes InRight {
+    0% {
+        opacity: 0;
+        right: -100px
+    }
+    100% {
+        opacity: 1;
+        right: 20px
+    }
+}
+
+@keyframes trackBallSlide {
+    0%, 100%, 30%, 60% {
+        opacity: 1;
+        transform: translateY(-12px)
+    }
+    15%, 50% {
+        opacity: 0;
+        transform: translateY(8px)
+    }
+}
+
+.fadein {
+    animation-name: fadeIn
+}
+
+.fadeout {
+    animation-name: fadeOut
+}
+
+.flipoutx {
+    animation-name: flipOutX
+}
+
+.flipinx {
+    animation-name: flipInX
+}
+
+.fadeindown, .fadeinup {
+    animation-duration: 1s
+}
+
+.fadeindown {
+    animation-name: fadeInDown
+}
+
+.fadeinup {
+    animation-name: fadeInUp;
+    animation-fill-mode: forwards
+}
+
+.goleft, .goright {
+    animation-duration: .8s;
+    animation-fill-mode: forwards
+}
+
+.goleft {
+    animation-name: goLeft
+}
+
+.goright {
+    animation-name: goRight
+}
+
+.scalelarge {
+    animation: scaleLarge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+.hight-out {
+    animation: aniHeight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+.hight-in {
+    animation: goiHeight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 10
+}
+
+.slide-fade-out {
+    animation: fadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+.slide-fade-in {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 10
+}
+
+.contact-form, .container, .footer, .go-top, .header, .register-form {
+    animation: Start 1s steps(1, end) 0s 1 normal both
+}
+
+.register-form form {
+    transform: scale3d(0, 1, 1);
+    transition: all 1s cubic-bezier(.23, 1, .38, 1)
+}
+
+.register-form.show form {
+    transform: scale3d(1, 1, 1);
+    transition-delay: .9s
+}
+
+.bg-wave {
+    opacity: 0
+}
+
+.bg-wave.show-text {
+    animation: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+@media screen and (min-width: 1100px) {
+    .box-nav, .close-video, .copyright, .fix-footer, .footer-wave, .grid-item-bg canvas, .grid-item-bg::after, .hotline, .logo, .sub-news {
+        opacity: 0
+    }
+
+    .hotline {
+        pointer-events: none
+    }
+
+    .box-nav.show, .close-video.show {
+        animation: toRight;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .grid-item-bg::after {
+        animation: fadeIn;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .grid-item-bg canvas.show {
+        animation: fadeIn;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .copyright.show, .footer.align .copyright, .footer.center .copyright {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .fix-footer.show {
+        animation: fadeInUp;
+        animation-duration: .6s;
+        animation-delay: .3s;
+        animation-fill-mode: forwards
+    }
+
+    .bg-wave.show-text {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .footer-wave {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .show .hotline {
+        pointer-events: auto;
+        animation: goLeft;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards
+    }
+
+    .show .logo {
+        animation: goRight;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .group-central .slide-buttons, .group-central .slide-pagination {
+        opacity: 0;
+        transition: opacity .3s ease-in-out
+    }
+
+    .show-text .slide-buttons, .show-text .slide-pagination {
+        opacity: 1
+    }
+
+    .slide-pics .txt-banner {
+        opacity: 0;
+        right: 0;
+        transition: all 2s cubic-bezier(.23, 1, .38, 1)
+    }
+
+    .slide-pics .active .txt-banner {
+        opacity: 1;
+        right: 10vw;
+        animation-delay: 1s
+    }
+
+    .anisvg svg, .apartment-pic, .box-image, .box-pdf a, .box-progress, .box-txt i, .box-txt p, .content-main::after, .description, .go-back, .img-cover, .item-news-home, .keyplan, .logo-center, .note-facilities, .pic-library a, .pic-logo, .share, .slide-library, .text-intro h3, .text-intro p, .title-box, .title-main h2 span, .title-pic h3::after, .typical svg, .view-more {
+        opacity: 0
+    }
+
+    .line, .title-main h2::after {
+        transform: scale3d(0, 1, 1);
+        transform-origin: center center
+    }
+
+    .show-text .line, .show-text .title-main h2::after {
+        animation: goWidth;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .title-main h2 span:nth-child(odd) {
+        animation: fadeIn;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .title-main h2 span:nth-child(even) {
+        animation: fadeIn;
+        animation-duration: 2s;
+        animation-delay: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .content-main::before {
+        transform: scale3d(1, 0, 1);
+        transform-origin: top center
+    }
+
+    .copyright::before {
+        transform: scale3d(1, 0, 1);
+        transform-origin: bottom center
+    }
+
+    .show-text .box-txt p {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .view-more {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .box-image {
+        animation: fadeInUp;
+        animation-duration: 1.5s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .img-cover {
+        animation: fadeIn;
+        animation-duration: 1.5s;
+        animation-delay: .8s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .box-txt i {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .content-main::before {
+        animation: goHeight;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .copyright.show::before {
+        animation: goHeight;
+        animation-duration: 1s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .item-news-home {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .item-news-home:nth-child(1) {
+        animation-delay: .3s
+    }
+
+    .show-text .item-news-home:nth-child(2) {
+        animation-delay: .6s
+    }
+
+    .show-text .item-news-home:nth-child(3) {
+        animation-delay: .8s
+    }
+
+    .show-text .item-faci-home {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .item-faci-home:nth-child(1) {
+        animation-delay: .3s
+    }
+
+    .show-text .item-faci-home:nth-child(2) {
+        animation-delay: .6s
+    }
+
+    .show-text .item-faci-home:nth-child(3) {
+        animation-delay: .8s
+    }
+
+    .show-text .item-faci-home:nth-child(4) {
+        animation-delay: 1s
+    }
+
+    .show-text .logo-center {
+        animation: goDown;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .pic-logo {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .pic-logo:nth-child(1) {
+        animation-delay: .8s
+    }
+
+    .show-text .pic-logo:nth-child(2) {
+        animation-delay: 1s
+    }
+
+    .show-text .pic-logo:nth-child(3) {
+        animation-delay: 1.2s
+    }
+
+    .show-text .text-intro p {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .text-intro h3 {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .3s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .anisvg svg {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .content-main::after {
+        animation: goLeft;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards
+    }
+
+    .group-central[data-name=project-scale].show-text .box-cover {
+        animation: toLeft;
+        animation-duration: 2s;
+        animation-delay: .9s;
+        animation-fill-mode: forwards
+    }
+
+    .text-intro p:nth-child(1) {
+        animation-delay: .5s
+    }
+
+    .text-intro p:nth-child(2) {
+        animation-delay: .6s
+    }
+
+    .text-intro p:nth-child(3) {
+        animation-delay: .7s
+    }
+
+    .text-intro p:nth-child(4) {
+        animation-delay: .8s
+    }
+
+    .text-intro p:nth-child(5) {
+        animation-delay: .9s
+    }
+
+    .text-intro p:nth-child(6) {
+        animation-delay: 1s
+    }
+
+    .text-intro p:nth-child(7) {
+        animation-delay: 1.2s
+    }
+
+    .text-intro p:nth-child(8) {
+        animation-delay: 1.3s
+    }
+
+    .text-intro p:nth-child(9) {
+        animation-delay: 1.4s
+    }
+
+    .text-intro p:nth-child(10) {
+        animation-delay: 1.5s
+    }
+
+    .text-intro p:nth-child(11) {
+        animation-delay: 1.6s
+    }
+
+    .text-intro p:nth-child(12) {
+        animation-delay: 1.7s
+    }
+
+    .text-intro p:nth-child(13) {
+        animation-delay: 1.8s
+    }
+
+    .text-intro p:nth-child(14) {
+        animation-delay: 1.9s
+    }
+
+    .text-intro p:nth-child(15) {
+        animation-delay: 2s
+    }
+
+    .text-intro p:nth-child(16) {
+        animation-delay: 2.1s
+    }
+
+    .text-intro p:nth-child(17) {
+        animation-delay: 2.2s
+    }
+
+    .text-intro p:nth-child(18) {
+        animation-delay: 2.3s
+    }
+
+    .text-intro p:nth-child(19) {
+        animation-delay: 2.4s
+    }
+
+    .text-intro p:nth-child(20) {
+        animation-delay: 2.5s
+    }
+
+    .buttons, .compass, .pointer-map {
+        opacity: 0
+    }
+
+    .show-text .buttons {
+        animation: goLeft;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .compass {
+        animation: goLeft;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .pointer-map.show, .show-text .pointer-map {
+        animation: bounceInDown;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    #library-page .title-main h2::after {
+        transform: scale3d(1, 0, 1);
+        transform-origin: center center
+    }
+
+    #library-page .show-text .title-main h2::after {
+        animation: goHeight;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards
+    }
+
+    .hover .title-pic h3::after {
+        animation: fadeInUp;
+        animation-duration: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .hover .box-pdf a, .hover .pic-library a {
+        animation: fadeInUp;
+        animation-duration: .6s;
+        animation-delay: .3s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .slide-library {
+        animation: fadeInUp;
+        animation-duration: .6s;
+        animation-fill-mode: forwards
+    }
+
+    .dot-num {
+        transform: scale(0)
+    }
+
+    .close-pics {
+        animation: toRight;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    #facilities-page .show-text .title-main h2::after {
+        animation: goHeight;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .note-facilities {
+        animation-name: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .8s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .dot-num.show span.circle {
+        animation: Ani 2s infinite
+    }
+
+    .show-text .dot-num.show {
+        transform: scale(1)
+    }
+
+    #apartment-page .show-text .title-main h2::after {
+        animation: goHeight;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-text .typical svg {
+        animation-name: scaleLarge;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .bg-circle {
+        stroke: #a07759;
+        stroke-miterlimit: 0;
+        stroke-width: 3;
+        stroke-dasharray: 8;
+        stroke-dashoffset: 0
+    }
+
+    .show-text .bg-circle {
+        animation: StrokeLine1 20s infinite linear
+    }
+
+    .show-house .title-box {
+        animation-name: aniLeft;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-house .apartment-pic {
+        animation-name: scaleLarge;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards
+    }
+
+    .show-house .description, .show-house .keyplan, .show-house .share {
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-house .description {
+        animation-name: fadeInUp
+    }
+
+    .go-back.show {
+        pointer-events: auto;
+        animation-name: InRight;
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .show-house .keyplan, .show-house .share {
+        animation-name: goRight
+    }
+
+    .box-progress.show {
+        animation: fadeInUp;
+        animation-duration: .6s;
+        animation-fill-mode: forwards
+    }
+
+    #news-page .grid-item-bg canvas {
+        opacity: 1
+    }
+
+    .link-page {
+        opacity: 0
+    }
+
+    .link-page.show {
+        animation: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .close-news {
+        opacity: 0;
+        pointer-events: none
+    }
+
+    .colum-box-news.show .close-news {
+        animation: toRight;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        pointer-events: auto
+    }
+
+    .news-list.hide {
+        animation: fadeOut;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards
+    }
+
+    #contact-page .show-text .anisvg svg {
+        animation: goLeft;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .go-back.show, .house-detail.show-house {
+        animation-duration: 1s;
+        animation-fill-mode: forwards
+    }
+
+    .go-back, .house-detail {
+        opacity: 0
+    }
+
+    .house-detail.show-house {
+        animation-name: fadeInUp
+    }
+
+    .go-back.show {
+        pointer-events: auto;
+        animation-name: goRight
+    }
+}
