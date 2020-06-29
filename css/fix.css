@@ -1,0 +1,1632 @@
+@media (max-width: 991px){
+
+    .spaces-list {
+
+        position: relative;
+
+        top: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        min-height: initial;
+
+        padding: 1em 0 1em;
+
+        background: #fff;
+
+    }
+
+    .main {
+
+        position: relative;
+
+        top: 0;
+
+        left: 0;
+
+        overflow: hidden;
+
+        width: 0;
+
+        height: initial;
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .levels {
+
+        width: 100%;
+
+        height: initial;
+
+        margin: 0;
+
+        -webkit-transition: -webkit-transform 0.3s;
+
+        transition: transform 0.3s;
+
+        -webkit-transform-style: preserve-3d;
+
+        transform-style: preserve-3d;
+
+        position: relative;
+
+    }
+
+    .surroundings, .levels {
+
+        position: relative;
+
+        top: 0%;
+
+        left: 0%;
+
+    }
+
+    .pin--1-1a {top: 33vmin;right: 9vmin;}
+
+    .pin--1-1b { top: 58vmin; right: 10vmin; }
+
+    .pin--1-2 { top: 56vmin; right: 13vmin; }
+
+    .pin--1-3a { top: 49vmin; left: 83vmin; }
+
+    .pin--1-3b { top: 32vmin; left: 81vmin; }
+
+    .pin--1-4a { top: 40vmin; left: 83vmin;}
+
+    .pin--1-4b { top: 48vmin; left: 65vmin;}
+
+    .pin--1-5a { top: 60vmin; left: 31vmin; }
+
+    .pin--1-5b { top: 45vmin; left: 29vmin;}
+
+    .pin--1-6 { top: 33vmin; left: 41vmin; }
+
+    .pin--1-7 { top: 41vmin; left: 41vmin;}
+
+    .pin--1-8 { top: 41vmin; left: 30vmin; }
+
+    .pin--1-9 { top: 50vmin; left: 60vmin; }
+
+    .pin--1-10 { top: 43vmin; left: 50vmin; }
+
+    .list {
+
+        margin: 0 0 0em;
+
+        padding: 0 2em 1em 2em;
+
+        list-style: none;
+
+    }
+
+    .list__link {
+
+        font-size: 15px;
+
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .loading.close-loading:before, .loading.close-loading:after{
+
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 440px){
+
+    .pin__icon spam {
+
+        left: -17px;
+
+    }
+
+}
+
+
+
+.content-standard-ck img{
+
+    height: initial !important;
+
+}
+
+
+
+.page-tintuc{
+
+    float: left;
+
+    width: 100%;
+
+    height: 100vh;
+
+    position: relative;
+
+}
+
+.bg-fix-news{
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.bg-fix-news img{
+
+    object-fit: cover;
+
+    height: 100%;
+
+    min-width: 100%;
+
+    object-position: center;
+
+}
+
+.item-contact a{color: #fff;}
+
+.position-house img{
+
+    width: 100%;
+
+}
+
+
+
+/**** phone ******/
+
+.box-phone-alo {
+
+    position: fixed;
+
+    right: 170px;
+
+    top: Calc(100% - 235px);
+
+    z-index: 9999;
+
+    cursor: pointer;
+
+}
+
+@media (max-width: 767px){
+
+    .box-phone-alo{
+
+        zoom: .6;
+
+    }
+
+}
+
+.aloks-move-cursor {cursor: move;}
+
+.aloks-phone.aloks-show {visibility: visible;}
+
+.fadeOutRight {-webkit-animation-name: fadeOutRight;animation-name: fadeOutRight;}
+
+.aloks-phone.aloks-static {opacity: .6;}
+
+.aloks-phone.aloks-hover,
+
+.aloks-phone:hover {opacity: 1;}
+
+.aloks-ph-circle {
+    width: 160px;height: 160px;top: 20px;left: 20px;
+    position: absolute;background-color: transparent;-webkit-border-radius: 100%;
+    -moz-border-radius: 100%;border-radius: 100%;border: 20px solid #163973;border: 2px solid #163973;
+    opacity: .1;-webkit-animation: aloks-circle-anim 1.2s infinite ease-in-out;-moz-animation: aloks-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: aloks-circle-anim 1.2s infinite ease-in-out;-o-animation: aloks-circle-anim 1.2s infinite ease-in-out;
+    animation: aloks-circle-anim 1.2s infinite ease-in-out;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;
+    transition: all .5s;-webkit-transform-origin: 50% 50%;-moz-transform-origin: 50% 50%;-ms-transform-origin: 50% 50%;-o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;}
+
+.aloks-mobile .aloks-ph-circle {width: 140px;height: 140px;top: 30px;left: 30px;}
+
+.aloks-phone.aloks-active .aloks-ph-circle {-webkit-animation: aloks-circle-anim 1.1s infinite ease-in-out !important;
+    -moz-animation: aloks-circle-anim 1.1s infinite ease-in-out !important;-ms-animation: aloks-circle-anim 1.1s infinite ease-in-out !important;
+    -o-animation: aloks-circle-anim 1.1s infinite ease-in-out !important;animation: aloks-circle-anim 1.1s infinite ease-in-out !important;}
+
+.aloks-phone.aloks-static .aloks-ph-circle {-webkit-animation: aloks-circle-anim 2.2s infinite ease-in-out !important;
+    -moz-animation: aloks-circle-anim 2.2s infinite ease-in-out !important;-ms-animation: aloks-circle-anim 2.2s infinite ease-in-out !important;
+    -o-animation: aloks-circle-anim 2.2s infinite ease-in-out !important;animation: aloks-circle-anim 2.2s infinite ease-in-out !important;}
+
+.aloks-phone.aloks-hover .aloks-ph-circle,
+
+.aloks-phone:hover .aloks-ph-circle {border-color: #163973;opacity: .5;}
+
+.aloks-phone.aloks-green.aloks-hover .aloks-ph-circle,
+
+.aloks-phone.aloks-green:hover .aloks-ph-circle {border-color: #163973;opacity: .5;}
+
+.aloks-phone.aloks-green .aloks-ph-circle {border-color: #163973;opacity: .5;}
+
+.aloks-ph-circle-fill {
+    width: 100px;height: 100px;top: 50px;left: 50px;position: absolute;
+    background-color: #000;-webkit-border-radius: 100%;-moz-border-radius: 100%;
+    border-radius: 100%;opacity: .1;-webkit-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out;-ms-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out;animation: aloks-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;
+    transition: all .5s;-webkit-transform-origin: 50% 50%;-moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;-o-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+
+.aloks-phone.aloks-active .aloks-ph-circle-fill {-webkit-animation: aloks-circle-fill-anim 1.7s infinite ease-in-out !important;-moz-animation: aloks-circle-fill-anim 1.7s infinite ease-in-out !important;-ms-animation: aloks-circle-fill-anim 1.7s infinite ease-in-out !important;-o-animation: aloks-circle-fill-anim 1.7s infinite ease-in-out !important;animation: aloks-circle-fill-anim 1.7s infinite ease-in-out !important;}
+
+.aloks-phone.aloks-static .aloks-ph-circle-fill {-webkit-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out !important;-moz-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out !important;-ms-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out !important;-o-animation: aloks-circle-fill-anim 2.3s infinite ease-in-out !important;animation: aloks-circle-fill-anim 2.3s infinite ease-in-out !important;opacity: 0 !important;}
+
+.aloks-phone.aloks-hover .aloks-ph-circle-fill,
+
+.aloks-phone:hover .aloks-ph-circle-fill {background-color: rgba(222, 0, 110, 0.5);opacity: .75 !important;}
+
+.aloks-phone.aloks-green.aloks-hover .aloks-ph-circle-fill,
+
+.aloks-phone.aloks-green:hover .aloks-ph-circle-fill {background-color: #163973);opacity: .75 !important;}
+
+.aloks-phone.aloks-green .aloks-ph-circle-fill {background-color: #163973;opacity: 1 !important;}
+
+.aloks-ph-img-circle {
+    width: 60px;height: 60px;top: 71px;left: 71px;cursor: pointer;position: absolute;
+    background: rgba(30, 30, 30, 0.1);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;opacity: 1;
+    box-sizing: initial;
+    background-size: 33px;}
+
+.aloks-ph-circle-shake {-webkit-animation: aloks-circle-img-anim 1s infinite ease-in-out;-moz-animation: aloks-circle-img-anim 1s infinite ease-in-out;-ms-animation: aloks-circle-img-anim 1s infinite ease-in-out;-o-animation: aloks-circle-img-anim 1s infinite ease-in-out;animation: aloks-circle-img-anim 1s infinite ease-in-out;-webkit-transform-origin: 50% 50%;-moz-transform-origin: 50% 50%;-ms-transform-origin: 50% 50%;-o-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+
+.aloks-phone.aloks-active .aloks-ph-img-circle {-webkit-animation: aloks-circle-img-anim 1s infinite ease-in-out !important;-moz-animation: aloks-circle-img-anim 1s infinite ease-in-out !important;-ms-animation: aloks-circle-img-anim 1s infinite ease-in-out !important;-o-animation: aloks-circle-img-anim 1s infinite ease-in-out !important;animation: aloks-circle-img-anim 1s infinite ease-in-out !important;}
+
+.aloks-phone.aloks-static .aloks-ph-img-circle {-webkit-animation: aloks-circle-img-anim 0s infinite ease-in-out !important;-moz-animation: aloks-circle-img-anim 0s infinite ease-in-out !important;-ms-animation: aloks-circle-img-anim 0s infinite ease-in-out !important;-o-animation: aloks-circle-img-anim 0s infinite ease-in-out !important;animation: aloks-circle-img-anim 0s infinite ease-in-out !important;}
+
+.aloks-phone.aloks-hover .aloks-ph-img-circle,
+
+.aloks-phone:hover .aloks-ph-img-circle {background-color: #163973;}
+
+.aloks-phone.aloks-green.aloks-hover .aloks-ph-img-circle,
+
+.aloks-phone.aloks-green:hover .aloks-ph-img-circle {background-color: #163973;}
+
+.aloks-phone.aloks-green .aloks-ph-img-circle {    background-color: #163973;}
+
+
+
+@-webkit-keyframes aloks-circle-anim {
+
+    0% {transform: rotate(0) scale(.5) skew(1deg);-webkit-transform: rotate(0) scale(.5) skew(1deg);opacity: .1;}
+
+    30% {transform: rotate(0) scale(.7) skew(1deg);-webkit-transform: rotate(0) scale(.7) skew(1deg);opacity: .5;}
+
+    100% {transform: rotate(0) scale(1) skew(1deg);-webkit-transform: rotate(0) scale(1) skew(1deg);opacity: .1;}
+
+}
+
+
+
+@keyframes aloks-circle-anim {
+
+    0% {transform: rotate(0) scale(.5) skew(1deg);opacity: .1;}
+
+    30% {transform: rotate(0) scale(.7) skew(1deg);opacity: .5;}
+
+    100% {transform: rotate(0) scale(1) skew(1deg);opacity: .1;}
+
+}
+
+
+
+
+
+@-webkit-keyframes aloks-circle-fill-anim {
+
+    0% {transform: rotate(0) scale(.7) skew(1deg);-webkit-transform: rotate(0) scale(.7) skew(1deg);opacity: .2;}
+
+    50% {transform: rotate(0) scale(1) skew(1deg);-webkit-transform: rotate(0) scale(1) skew(1deg);opacity: .2;}
+
+    100% {transform: rotate(0) scale(.7) skew(1deg);-webkit-transform: rotate(0) scale(.7) skew(1deg);opacity: .2;}
+
+}
+
+
+
+@keyframes aloks-circle-fill-anim {
+
+    0% {transform: rotate(0) scale(.7) skew(1deg);opacity: .2;}
+
+    50% {transform: rotate(0) scale(1) skew(1deg);opacity: .2;}
+
+    100% {transform: rotate(0) scale(.7) skew(1deg);opacity: .2;}
+
+}
+
+
+
+@-webkit-keyframes aloks-circle-img-anim {
+
+    0% {transform: rotate(0) scale(1) skew(1deg);}
+
+    10% {transform: rotate(-25deg) scale(1) skew(1deg);-webkit-transform: rotate(-25deg) scale(1) skew(1deg);}
+
+    20% {transform: rotate(25deg) scale(1) skew(1deg);-webkit-transform: rotate(25deg) scale(1) skew(1deg);}
+
+    30% {transform: rotate(-25deg) scale(1) skew(1deg);-webkit-transform: rotate(-25deg) scale(1) skew(1deg);}
+
+    40% {transform: rotate(25deg) scale(1) skew(1deg);-webkit-transform: rotate(25deg) scale(1) skew(1deg);}
+
+    50% {transform: rotate(0) scale(1) skew(1deg);-webkit-transform: rotate(0) scale(1) skew(1deg);}
+
+    100% {transform: rotate(0) scale(1) skew(1deg);-webkit-transform: rotate(0) scale(1) skew(1deg);}
+
+}
+
+
+
+@keyframes aloks-circle-img-anim {
+
+    0% {transform: rotate(0) scale(1) skew(1deg);}
+
+    10% {transform: rotate(-25deg) scale(1) skew(1deg);}
+
+    20% {transform: rotate(25deg) scale(1) skew(1deg);}
+
+    30% {transform: rotate(-25deg) scale(1) skew(1deg);}
+
+    40% {transform: rotate(25deg) scale(1) skew(1deg);}
+
+    50% {transform: rotate(0) scale(1) skew(1deg);}
+
+    100% {transform: rotate(0) scale(1) skew(1deg);}
+
+}
+
+@media (min-width: 992px){
+    .iconmenu{
+        display: none;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: 0rem;
+        height: initial;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        background-image: radial-gradient(circle, #e6d1c8, #ec5f30 , #d36c48);
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav-menu:before{
+        display: none;
+    }
+    .nav-menu:after{
+        display: none;
+    }
+    .main-menu {
+        padding-top: 0;
+        height: initial;
+    }
+    .main-menu ul li {
+        float: left;
+        width: initial;
+        padding: 28px 8px 12px 8px;
+    }
+    .main-menu ul li a {
+        color: #16254f;
+        background: none;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: initial;
+        letter-spacing: 0px;
+            font-family: 'texgyread regular';
+                font-size: 16px;
+    }
+    .main-menu ul {
+        float: right;
+        width: initial;
+        padding-right: 0px;
+    }
+    .main-menu ul li:hover a:after {
+        width: 7.3rem;
+        left: 0;
+        right: 0;
+        bottom: 18px;
+        height: 2px;
+        background: #16254f;
+    }
+    .main-menu ul li a:hover {
+        -webkit-text-fill-color: initial;
+    }
+    .z-index ~ .nav-menu{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.logo-menu {
+    float: left;
+    background: #162550;
+    padding: 10px 25px 10px 25px;
+    width: 158px;
+}
+.loading.close-loading .logo{
+    opacity: 0;
+    visibility: hidden;
+    z-index: -9;
+}
+@media (min-width: 1200px){
+
+    .nav-menu .container {
+        width: 1230px;
+    }
+}
+
+.loading.z-index {
+    z-index: -4 !important;
+}
+.caption-slider {
+    width: 480px;
+    height: 460px;
+    right: initial;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 35px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+        background-image: linear-gradient(to right, #d36c48,#cccccc,#d36c48);
+}
+.caption-slider .middle:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/1.png) top center;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.caption-slider .middle:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/2.png) bottom center;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.caption-slider .vertical{
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/background-cover.jpg);
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.caption-slider .vertical .ctn {
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 999;
+}
+.caption-slider .vertical .ctn p {
+    margin-bottom: 0;
+    float: left;
+    font-family: 'texgyread bold';
+    font-size: 23px;
+    text-transform: uppercase;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 0px;
+}
+.caption-slider .vertical .ctn .color{
+    font-family: 'texgyread bold';
+    background: radial-gradient(circle, #e2c8c8, #d36c48 , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.caption-slider .vertical .ctn hr{
+    float: left;
+    width: 100%;
+    margin: 13px 0px;
+}
+.caption-slider .vertical .ctn p b{
+    float: left;
+        width: 50px;
+    line-height: 33px;
+}
+.caption-slider .vertical .ctn p span{
+    float: left;
+    font-size: 65px;
+    line-height: 70px;
+    margin-left: 6px;
+}
+.caption-slider .vertical .ctn p em{
+    float: left;
+    font-style: normal;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
+.caption-slider .vertical .ctn .type2 p:nth-child(1), .caption-slider .vertical .ctn .type2 p:nth-child(2) {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    line-height: 75px;
+}
+
+.caption-slider .vertical .ctn .type2 p:nth-child(2){
+    margin-top: -15px;
+}
+
+.caption-slider .vertical .ctn .type2 p .color {
+    font-size: 40px;
+    line-height: 67px;
+    margin-left: 10px;
+}
+
+.btn-register-view {
+    position: fixed;
+    bottom: 50px;
+}
+
+.btn-register-view span {
+    background: radial-gradient(circle, #e2c8c8, #d36c48 , #d36c48);
+    border-radius: 50px;
+    color: #15244f;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "texgyread bold", sans-serif;
+    float: left;
+    width: 100%;
+    padding: 11px 16px 6px 16px;
+    margin: 0;
+}
+.box-phone-alo{
+    display: none !important;
+}
+.btn-register-view span:hover {
+    background: #002c3d none repeat scroll 0 0;
+    color: #fff;
+}
+.social-icon ul li {
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/leaf-icon.png) 7px 40px no-repeat;
+    background-size: 50px;
+    height: 65px;
+}
+.social-icon ul li a:hover {
+    border: none;
+}
+.social-icon ul li a{
+    border: none;
+}
+.social-icon ul li img{
+    height: 28px;
+}
+.vitri-dacdia .box-left:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/background-cover.jpg) top right no-repeat;
+    background-size: cover;
+}
+.content-vitri {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0px 30px;
+    text-align: justify;
+}
+
+.vitri-dacdia {
+    background: radial-gradient(circle, #e2c8c8, #d36c48 , #d36c48);
+    padding: 15px;
+}
+
+.list-icon-tienich{
+    float: left;
+    width: 100%;
+}
+
+.list-icon-tienich ul li {
+    float: left;
+    width: 33.3333% !important;
+    color: #fff !important;
+    height: initial !important;
+    font-size: 15px !important;
+    padding: 0 !important;
+    margin-top: 20px !important;
+}
+.list-icon-tienich ul li .img{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.list-icon-tienich ul li .img img{
+    position: relative;
+}
+.list-icon-tienich ul li h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.view-detail a{
+    background: linear-gradient(180deg, #f7cf86, #b67727);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+
+
+/*album 3d*/
+.dg-container{
+    width: 100%;
+    height: 60rem;
+    position: relative;
+}
+.dg-wrapper{
+    width: 120rem;
+    height: 60rem;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+.dg-wrapper a {
+    width: 120rem;
+    height: 60rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background: transparent url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/browser.png) no-repeat top left;*/
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img {
+    display: block;
+    padding: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-width: 100%;
+}
+.dg-wrapper a div {
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+    width: 100%;
+    bottom: -55px;
+    display: none;
+    position: absolute;
+}
+.dg-wrapper a.dg-center div{
+    display: block;
+}
+.dg-container nav{
+    /*width: 58px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -29px;*/
+}
+.dg-container nav span {
+    float: left;
+    cursor: pointer;
+    width: 6.8rem;
+    height: 6.8rem;
+    opacity: 0.8;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+.dg-container nav span img{
+    height: 100%;
+}
+.dg-container nav span:hover{
+    opacity: 1;
+}
+.dg-container nav span.dg-next{
+    right: 15px;
+    left: initial;
+}
+
+#section5::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/2.png) center bottom;
+    width: 32rem;
+    height: 32rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#section5:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/1.png) top center;
+    width: 42rem;
+    height: 42rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+}
+#section5 h2.text-shadow.has-color {
+        background: radial-gradient(circle, #d36c48, #ffffff , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 7.5rem;
+    margin-bottom: 25px;
+    z-index: 999;
+    position: relative;
+}
+
+.album-index {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #ffffff, #e8e8e8 , #d36c48);
+    padding: 14px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.album-index .bg {
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/background-cover.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    top: 0;
+    width: Calc(100% - 28px);
+    height: Calc(100% - 14px);
+}
+
+
+.news-index{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #ffffff, #e8e8e8 , #d36c48);
+    padding: 14px;
+    position: relative;
+    padding-top: 100px;
+}
+.news-index .bg {
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/background-cover.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    top: 0;
+    width: Calc(100% - 28px);
+    height: Calc(100% - 14px);
+}
+
+.news-index h2.text-shadow.has-color {
+        background: radial-gradient(circle, #d36c48, #ffffff , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 5.5rem;
+    margin-bottom: 20px;
+    z-index: 999;
+    position: relative;
+    font-size: 4rem;
+}
+
+.list-brand{
+    float: left;
+    width: 100%;
+}
+.list-brand ul{
+
+}
+.list-brand ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.list-brand ul li a{
+
+}
+.list-brand ul li a img {
+    max-height: 70px;
+}
+.item-brand{
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+
+.lienhe-index .box-right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.lienhe-index .box-right {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.lienhe-index .box-left{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.logo-footer{
+    text-align: center;
+}
+.item-footer {
+    font-weight: 700;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.content-footer-left{
+    padding: 0px 30px;
+}
+.item-footer h3{
+        background-image: linear-gradient(to right, #d36c48,#e8e5e5f0,#ce3905);
+    background: radial-gradient(circle, #d36c48, #d0bebe , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    margin-bottom: 5px;
+    z-index: 999;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.item-footer h2{
+        background-image: linear-gradient(to right, #d36c48,#e8e5e5f0,#ce3905);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    margin-bottom: 5px;
+    z-index: 999;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.form-register-view {
+    height: 100vh;
+}
+.form-register-view textarea{
+    width: 100%;
+    min-height: 130px;
+    border-radius: 19px;
+    padding: 10px;
+}
+.item-input textarea{
+    margin-bottom: 18px;
+}
+.form-register-view .custom-width form input {
+    margin-bottom: 17px;
+}
+.lienhe-index .fp-bg {
+    background-image: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/5.jpg);
+    background-position: center center;
+    z-index: 9;
+}
+.lienhe-index .form-register-view {
+    z-index: 99;
+    position: relative;
+}
+.form-register-view .custom-width {
+    border-radius: 15px;
+}
+.logo-footer a img {
+    max-height: 110px;
+    width: initial;
+    margin: 10px 10px 20px 10px;
+}
+.logo-footer a:last-child img {
+    max-height: 67px;
+    margin-top: -13px;
+}
+.tab-news ul li.active a, .tab-news ul li:hover a {
+    background: radial-gradient(circle, #af948a, #d36c48 , #d36c48);
+}
+.list-news .item-news:hover .title-item-news {
+    background-image: linear-gradient(to right, #d36c48e8,#c3bdbdf0,#d36c48f0);
+}
+.tab-news ul li a {
+    background: radial-gradient(circle, #e0d3cf, #d36c48 , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.detail-news {
+    margin-top: 110px !important;
+}
+.mb-tongthe .text-shadow {
+    margin-top: 50px;
+}
+@media (max-width: 1600px){
+    .caption-slider {
+        zoom: .7;
+    }
+}
+
+.thongtin-duan {
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+.title-section{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.title-section h2 {
+    font-weight: 900;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "texgyread bold", sans-serif;
+    color: #162550;
+    background: radial-gradient(circle, #d36c48, #ffffff , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 6.5rem;
+    margin: 0;
+}
+.info-duan-index{
+        float: left;
+    width: 100%;
+    text-align: center;
+}
+.box-ctn-img{
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+}
+.svg-path{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.tab-socanho{
+    position: absolute;
+    left: -240px;
+    top: 60px;
+    width: 245px;
+    z-index: 999;
+}
+.tab-socanho ul{padding: 0;margin: 0;list-style: none;float: left;width: 100%;}
+.tab-socanho ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 29px;
+    text-align: left;
+    position: relative;
+    padding-left: 30px;
+}
+.tab-socanho ul li a{
+    color: #fff;
+    background: radial-gradient(circle, #e0d3cf, #d36c48 , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.tab-socanho ul li.active:after{
+    background: radial-gradient(circle, #e0d3cf, #d36c48 , #d36c48);
+}
+.tab-socanho ul li:after{
+    content:"";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50px;
+}
+.view-more-project {
+    background: radial-gradient(circle, #e0d3cf, #e03a00 , #d36c48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.svg-path svg path {
+    cursor: pointer;
+    fill-opacity: 0;
+    fill: #162550;
+}
+.svg-path svg path:hover{
+    background: #162550 !important;
+    fill-opacity: 1 !important;
+}
+.svg-path.active svg path {
+    background: #162550;
+    fill-opacity: 1;
+}
+.svg-path svg path.active{
+    background: #162550;
+    fill-opacity: 1;
+}
+.fancybox-container {
+    z-index: 999999999;
+}
+.img-360 {
+    width: 40px;
+    display: inline-block;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: -13px;
+}
+@media (max-width: 1600px){
+    .tab-socanho {
+        position: absolute;
+        left: -50px;
+        top: -53px;
+        width: 245px;
+    }
+}
+
+
+.page-vitri {
+    background: radial-gradient(circle, #e2c8c8, #d36c48 , #d36c48);
+    padding: 15px;
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page-vitri .title-page{
+    float: left;
+    width: 100%;
+}
+.page-vitri .title-page h2{
+    color: #163973;
+    text-shadow: none;
+    background: radial-gradient(circle, #e2c8c8, #d03600 , #9a2800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    line-height: 7rem;
+}
+.bg-vitri{
+    float: left;
+    width: 100%;
+}
+.ctn{
+    float: left;
+    width: 100%;
+    color: #fff;
+}
+.box-width {
+    background: url(https://riveraparkhanoi.vn/themes/introduce/w3ni701/images/background-cover.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 75px 0px;
+}
+
+@media (max-width: 480px){
+    .lienhe-index .box-right {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .form-register-view {
+        height: initial;
+    }
+    .form-register-view .custom-width {
+        border-radius: 0;
+    }
+    .lienhe-index .box-left {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .social-icon {
+        zoom: .9 !important;
+            z-index: 999999;
+    }
+    .news-index {
+        padding-top: 0;
+    }
+    h2.text-shadow{
+        font-size: 25px !important ;
+        line-height: 45px !important;
+    }
+    .news-index {
+        height: initial;
+    }
+    .list-brand ul li {
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    .vitri-dacdia .box-left ul li {
+        font-size: 14px;
+        height: 140px !important;
+    }
+    .album-index{
+        height: initial;
+        padding-top: 0;
+    }
+    .dg-container {
+        width: 100%;
+        height: 60rem;
+        position: relative;
+        height: 340px;
+    }
+    .dg-wrapper {
+        width: 80%;
+        height: 340px;
+    }
+    .dg-wrapper a {
+        width: 100%;
+        height: 240px;
+    }
+    .dg-container nav {
+        margin: 8px auto;
+        position: relative;
+        width: 100px;
+    }
+    .dg-container nav span {
+        left: 15px;
+        top: initial;
+        bottom: 25px;
+    }
+    .thongtin-duan {
+        float: left;
+        width: 100%;
+        min-height: initial;
+        padding-top: 40px;
+    }
+    .title-section h2 {
+        font-size: 25px;
+    }
+    .box-ctn-img {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .tab-socanho {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        float: left;
+        width: 245px;
+    }
+    .loading{
+        z-index: -4 !important;
+    }
+    .main-content{
+        opacity: 1;
+        visibility: visible;
+    }
+    .box-bog{
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+    .view-more-project{
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #section1 .vitri-dacdia{
+        padding-bottom: 0;
+    }
+    .main-menu {
+        padding-top: 40px;
+    }
+    .logo-menu{
+            background: transparent;
+        float: right;
+        margin-bottom: 15px;
+    }
+    .wow{
+        visibility: visible !important;
+            animation-delay: 0s !important;
+    }
+    .main-menu ul li a {
+        padding: 4px 0;
+    }
+}
+
+
+@media (max-height: 700px) and (min-width: 1100px) {
+    .news-index h2.text-shadow.has-color {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .tab-news {
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+    .list-news {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .list-news .item-news .img-item-news {
+        padding: 20%;
+    }
+    .list-news .item-news {
+        margin-bottom: 0;
+    }
+    .list-news .item-news .title-item-news {
+        padding: 9px 15px 6px 15px;
+    }
+    .list-news .item-news .title-item-news h3 {
+        margin: 0 0px 0px 0;
+    }
+    .dg-container{
+        width: 100%;
+        height: 47rem;
+    }
+    .dg-wrapper{
+        width: 100rem;
+        height: 47rem;
+    }
+    .dg-wrapper a {
+        width: 100rem;
+        height: 47rem;
+    }
+    #section5 h2.text-shadow.has-color {
+        line-height: 5.5rem;
+        margin-bottom: 15px;
+    }
+    .box-bog{
+        width: 650px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .list-icon-tienich{
+        zoom: .8;
+    }
+    .tienich-duan .content-vitri{
+        height: 80px;
+        overflow: hidden;
+    }
+    .lienhe-index .box-left {
+        padding-top: 75px;
+    }
+    .form-register-view{
+        padding-top: 95px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .vitri-dacdia .box-left {
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 30px;
+    }
+    .vitri-dacdia .box-right {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .box-ctn-img {
+        width: 95%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .vitri-dacdia .box-right .map img {
+        object-fit: initial;
+        object-position: center;
+        height: initial;
+        min-width: 100%;
+    }
+    .album-index {
+        padding-top: 0;
+        height: initial;
+        padding-bottom: 120px;
+    }
+    .dg-container{
+        width: 100%;
+        height: 500px;
+    }
+    .dg-wrapper{
+        width: 80%;
+        height: 500px;
+    }
+    .dg-wrapper a {
+        width: 100%;
+        height: 500px;
+    }
+    .news-index {
+        padding-top: 0;
+        height: initial;
+        padding-bottom: 50px;
+    }
+    .form-register-view {
+        height: initial;
+    }
+    .nav-menu .container{
+        width: 100%;
+    }
+    .wow{
+        visibility: visible !important;
+        animation-duration: 0 !important;
+        animation-name: none;
+    }
+    .logo-menu {
+        float: right;
+        background: transparent;
+        padding: 10px 25px 10px 25px;
+        width: 158px;
+        margin: 0 auto;
+    }
+    .loading .logo{
+        display: none;
+    }
+    .main-content{
+        opacity: 1;
+        visibility: visible;
+    }
+    .iconmenu{
+        z-index: 9999999;
+    }
+    .album-index .bg {
+        top: 14px;
+        width: Calc(100% - 28px);
+        height: Calc(100% - 28px);
+    }
+    .album-index .text-shadow{
+        margin-bottom: 25px !important;
+        position: relative;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 767px){
+    .nav-menu {
+        width: 305px;
+    }
+}
+
+@media (max-width: 600px){
+    .dg-container{
+        width: 100%;
+        height: 300px;
+    }
+    .dg-wrapper{
+        width: 80%;
+        height: 300px;
+    }
+    .dg-wrapper a {
+        width: 100%;
+        height: 300px;
+    }
+    .loading .logo {
+        width: 150px;
+        height: 160px;
+        right: 0;
+        padding: 10px;
+        bottom: initial;
+        top: 15px;
+    }
+    .iconmenu {
+        top: 4rem;
+        right: 4rem;
+    }
+    .list-brand ul li{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    h2.text-shadow {
+            font-size: 20px !important;
+    margin-top: 40px !important;
+    line-height: 45px !important;
+
+    }
+    .title-section h2{
+        font-size: 20px;
+        line-height: 45px !important;
+    }
+    .tab-socanho {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 245px;
+        margin-top: 20px;
+    }
+    .thongtin-duan {
+        float: left;
+        width: 100%;
+        min-height: initial;
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    #section1 .vitri-dacdia{
+        padding-bottom: 0px;
+    }
+
+    .btn-register-view {
+        position: fixed;
+        bottom: 5px;
+    }
+    .news-index .bg {
+        height: Calc(100% - 0px);
+    }
+}
+@media (max-width: 480px){
+    .list-brand ul li {
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .item-footer h3 {
+        font-size: 15px;
+        line-height: 23px;
+            margin-bottom: 10px !important;
+    }
+    .item-footer h2 {
+        font-size: 20px;
+        line-height: 39px;
+    }
+    .box-width {
+        padding-top: 30px;
+    }
+    .vitri-dacdia .box-left ul.grouped-by-category li {
+        height: initial !important;
+    }
+    .list__link {
+        position: relative;
+    }
+}
+
+@media (max-width: 440px){
+    .iconmenu.open {
+        right: 350px;
+        top: 0;
+        left: initial;
+    }
+    .nav-menu {
+        width: 280px;
+    }
+    h2.text-shadow {
+        font-size: 20px !important;
+        margin-top: 40px !important;
+        line-height: 35px !important;
+    }
+}
+.list-brand ul{
+    list-style: none;
+}
+.album-index .text-shadow{
+    position: relative;
+}
+
+@media (max-height: 600px){
+    h2.text-shadow{
+        margin-top: 0px !important;
+    }
+}
+@media (max-height: 650px){
+    h2.text-shadow{
+        margin-top: 0px !important;
+    }
+    .tienich-duan.vitri-dacdia .box-left ul {
+        max-height: 320px;
+        overflow-y: auto;
+    }
+    .tienich-duan.vitri-dacdia .box-left {
+        padding-top: 70px;
+    }
+
+
+}
+
+
+@media (max-width: 480px){
+    .page-vitri .item-intro {
+        width: 100%;
+    }
+
+    .item-intro .left .vertical:after {
+        width: 100%;
+            height: 100% !important;
+    }
+    .item-intro .middle {
+        display: table-cell;
+        vertical-align: middle !important;
+    }
+    .item-intro .left p, .item-intro .right p {
+        padding: 14px 15px !important;
+        height: initial !important;
+    }
+}
